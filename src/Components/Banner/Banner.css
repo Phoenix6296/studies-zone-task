@@ -1,0 +1,45 @@
+.banner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner>img {
+    height: 100vh;
+}
+
+.b-content {
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.b-content>span:nth-of-type(1),
+.b-content>span:nth-of-type(2) {
+    font-size: 4rem;
+}
+
+.b-content>span:nth-of-type(3),
+.b-content>span:nth-of-type(4) {
+    font-size: 1.5rem;
+}
+
+.b-content>button {
+    width: 10rem;
+    padding: 1rem;
+    background: rgb(103, 103, 103);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: medium;
+}
+
+.b-content>button:hover {
+    cursor: pointer;
+    background: rgb(118, 118, 118);
+}
