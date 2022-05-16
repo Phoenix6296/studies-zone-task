@@ -1,12 +1,11 @@
 import React from "react";
 import "./Register.css";
 import Navbar from "../Home/Navbar/Navbar";
-import BannerImage from '../../Assets/bannerImage.svg'
+import BannerImage from "../../Assets/bannerImage.svg";
 
 const Register = () => {
   return (
     <>
-      <Navbar />
       <div className="register">
         <span>
           Placement <span>+</span>
