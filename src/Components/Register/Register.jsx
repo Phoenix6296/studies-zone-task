@@ -4,7 +4,7 @@ import BannerImage from "../../Assets/bannerImage.svg";
 
 const Register = () => {
   return (
-    <>
+    <div className="r-wrapper">
       <div className="register">
         <span>
           Placement <span>+</span>
@@ -32,7 +32,7 @@ const Register = () => {
         </div>
       </div>
       <img src={BannerImage} alt="" />
-    </>
+    </div>
   );
 };
 
