@@ -4,8 +4,8 @@ import BannerImage from "../../Assets/bannerImage.svg";
 
 const Register = () => {
   return (
-    <div className="r-wrapper">
-      <div className="register">
+    <div className="register">
+      <div className="r-wrapper">
         <span>
           Placement <span>+</span>
         </span>
@@ -26,7 +26,7 @@ const Register = () => {
             </div>
             <div className="r-button">
               <button>Upload Resume!</button>
-              <button id="r-submit">Submit</button>
+              <button id="r-submit">Register</button>
             </div>
           </form>
         </div>

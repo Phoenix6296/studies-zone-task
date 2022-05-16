@@ -1,4 +1,4 @@
- .register {
+ .r-wrapper {
      height: 100vh;
      gap: 2rem;
      display: flex;
@@ -11,7 +11,7 @@
      width: 100%;
  }
 
- .register>span>span {
+ .r-wrapper>span>span {
      color: yellowgreen;
  }
 
@@ -30,7 +30,7 @@
      z-index: 1;
  }
 
- .r-wrapper>img {
+ .register>img {
      height: 100vh;
      width: 100%;
      filter: blur(4px);
