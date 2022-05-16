@@ -37,3 +37,14 @@ a {
     background: rgb(221, 250, 255);
     transition: 0.8s;
 }
+
+
+@media only screen and (max-width: 600px) {
+    #n-title {
+        padding-left: 1rem;
+    }
+
+    .n-right button:nth-of-type(1) {
+        margin-right: 1rem !important;
+    }
+}

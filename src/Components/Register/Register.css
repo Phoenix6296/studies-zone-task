@@ -32,7 +32,6 @@
 
  .register>img {
      height: 100vh;
-     width: 100%;
      filter: blur(4px);
      z-index: 0;
  }
@@ -97,4 +96,22 @@
 
  #r-submit:hover {
      background: rgb(234, 81, 4);
+ }
+
+
+
+ @media only screen and (max-width: 600px) {
+     form {
+         width: auto;
+     }
+
+     .r-container {
+         width: auto;
+         padding: 1rem;
+     }
+
+     .r-button button {
+         width: fit-content;
+         padding: 0.5rem;
+     }
  }

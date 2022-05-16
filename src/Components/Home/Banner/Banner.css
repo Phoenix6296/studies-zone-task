@@ -8,7 +8,7 @@
 
 .banner>img {
     height: 100vh;
-    width: 100%;
+    background-repeat: repeat;
 }
 
 .b-content {
@@ -43,4 +43,28 @@
 .b-content>button:hover {
     cursor: pointer;
     background: rgb(118, 118, 118);
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .b-content {
+        gap: 1rem;
+    }
+
+    .b-content>span:nth-of-type(1),
+    .b-content>span:nth-of-type(2) {
+        font-size: 2rem;
+    }
+
+    .b-content>span:nth-of-type(3),
+    .b-content>span:nth-of-type(4) {
+        font-size: 1rem;
+    }
+
+    .b-content>button {
+        width: auto;
+        padding: 0.7rem;
+        font-size: small;
+    }
 }

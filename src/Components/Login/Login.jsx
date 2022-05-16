@@ -11,7 +11,7 @@ const Login = () => {
           Placement <span>+</span>
         </span>
         <div className="r-container">
-          <span>Login Details</span>
+          <span id="l-title">Login Details</span>
           <form action="" className="l-form">
             <input type="email" placeholder="Email" id="l-email" required />
             <input type="password" placeholder="Password" required />
