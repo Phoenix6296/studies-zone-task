@@ -40,6 +40,14 @@ a {
 
 
 @media only screen and (max-width: 600px) {
+    .n-right {
+        margin-left: 0;
+    }
+
+    .n-link {
+        margin-left: 1rem;
+    }
+
     #n-title {
         padding-left: 1rem;
     }
